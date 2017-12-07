@@ -1,0 +1,34 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://yannadani.github.io/vitae
+author: Yashas Annadani
+
+
+baseurl: /vitae/
+title: Yashas Annadani's Resume
+name: Yashas Annadani
+email: yashas.annadani@gmail.com
+email_full: mailto:yashas.annadani@gmail.com
+website: github.io
+website_full: yannadani.github.io
+github: yannadani
+twitter: yashasannadani
+linkedin: yashasannadani
+#tel: +44 0000 000000
+#tel_full: tel:+440000000000
+google_maps: 'https://www.google.co.in/maps/place/Bakul+Nivas/'
+address: Room 114, Bakul Nivas
+postcode: 500 032
+city: Hyderabad
+country: India
+google_analytics: UA-89293193-1 
+
+# needed for travis-ci build
+exclude: [vendor]

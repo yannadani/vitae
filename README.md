@@ -1,2 +1,1 @@
-# vitae
-CV corresponding to yannadani.github.io
+Resume corresponding to yannadani.github.io
