@@ -28,7 +28,7 @@
         <img src="{{ site.baseurl }}static/img/profile.jpg" class="me">
         <h1>{{ site.name }}</h1>
         <address>
-            <a href="{{ site.google_maps }}">
+            <a href="{{ site.google_maps }}" target="blank">
                 {{ site.address }}<br/>
                 {{ site.city }}<br/>
                 {{ site.postcode }}<br/>
@@ -36,12 +36,12 @@
             </a>
         </address>
         <p>
-            <a href="{{ site.website_full }}">{{ site.website_full }}</a><br/>
+            <a href="yannadani.github.io">{{ site.website_full }}</a><br/>
         </p>
         <p>
             <a href="{{ site.email_full }}"><i class="fa fa-envelope"></i> E-Mail</a><br/> 
-            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a><br/>
-            <a href="https://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i> Linkedin</a>
+            <a href="https://github.com/{{ site.github }}" target="blank"><i class="fa fa-github"></i> Github</a><br/>
+            <a href="https://linkedin.com/in/{{ site.linkedin }}" target="blank"><i class="fa fa-linkedin"></i> Linkedin</a>
         </p>
     </header>
     <div class="thirteen columns clearfix">
@@ -49,8 +49,8 @@
         {{ content }}
 
     <footer class="thirteen columns">
-        <p>Powered by <a href="http://jekyllrb.com/">Jekyll</a>. Theme from 
-            <a href="https://www.github.com/biomadeira/vitae">Singular</a>.</p>
+        <p>Powered by <a href="http://jekyllrb.com/" target="blank">Jekyll</a>. Theme from 
+            <a href="https://www.github.com/biomadeira/vitae" target="blank">Singular</a>.</p>
     </footer>
     </div>
 </div>
